@@ -21,7 +21,9 @@ The Gini score tells us how good a split is by how mixed the classes are in the 
 The decision tree takes the form of a dictionary, which will be easily browsed during inference, to determine to which class an observation belongs.
 
 The parameter not only allows us to drastically reduce the execution time (scanning each observation of a dataset versus scanning 10 values: the deciles) but also gives us mostly better results. 
-2.2. Random Forest :
+
+### Random Forest :
+
 As we saw earlier, the Random Forest is a set of Decision Trees. In our implementation, we find the same parameters as in our implementation of the Decision Tree, as well as the parameter n_estimators which indicates the number of Decision Trees desired.
 
 During training and for each Decision Tree, a random sample of data points is generated for training. We perform Bootstrapping, which means that the samples are drawn with replacement and two thirds of the Dataset. Some samples will therefore be used multiple times in a single tree. We do this in order to have each tree trained on different samples, although individually and potentially having a high variance, put together in a random forest with a lower variance, without increasing the bias.
