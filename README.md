@@ -1,3 +1,8 @@
+# Map of the code
+
+cyberbully.ipynb contains the home-made implementation
+
+
 # Ensemble_Learning
 
 Random Forest is one of the most widely used supervised machine learning algorithms for classification and regression problems. It builds Decision Trees on different samples of the training dataset and puts them together to vote for the class in the case of classification and the mean in the case of regression. The idea is to combine several weak learners, here the decision trees, to improve the robustness and accuracy of predictions in the Random Forest.
