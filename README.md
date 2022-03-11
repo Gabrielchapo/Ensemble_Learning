@@ -1,4 +1,4 @@
-# MAbstract
+# Abstract
 
 In This course project, we tackled the problem of text-based classification to classify tweets within six classes of cyberbullying.
 
