@@ -1,6 +1,25 @@
+# MAbstract
+
+In This course project, we tackled the problem of text-based classification to classify tweets within six classes of cyberbullying.
+
+Our main objective is to build a strong model, based on ensemble learning methods. we had two challenges, the first was to perform several NLP techniques to
+extract features from texts dataset, and the second was to apply several classifiers, tuning them and then choosing the best model for this task.
+
+We devided the projects in three tasks, then we applied several methods on each step:
+* Text preprocessing: lemmatization and stemming, stop words ...
+* Word/Sentence Embedding: Bag of words, TF IDF, Word2Vec 
+* Classification: GridSearch on (Decision Trees, Bagging, Random forests, Boosting, Gradient Boosted Trees, AdaBoost)
+
+At the end, we compared the accuracies of each couple of methods then we chose the combination (word embedding, classification) that have the best accuracy.
+
+We performed each of the tasks above twice: first on a multi-class classification task, then in a binary classification task.
+
+
+
 # Map of the code
 
 cyberbully.ipynb contains the home-made implementation
+cyberbullying_final_notebook.ipynb contains the final code for the best model the project 
 
 
 # Ensemble_Learning
